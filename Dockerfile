@@ -1,7 +1,7 @@
 FROM centos:centos7
 
 RUN yum update -y
-RUN yum install -y wget tree sudo systemd diffutils patch
+RUN yum install -y wget tree sudo diffutils patch
 
 RUN mkdir /opt/nginx
 
